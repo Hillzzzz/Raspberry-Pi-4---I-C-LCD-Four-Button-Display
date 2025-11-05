@@ -5,7 +5,7 @@ When a button is pressed, the LCD displays the name (or color) of the button.
 
 ---
 
-## 🧰 Hardware Used
+## Hardware Used
 - Raspberry Pi 4
 - 1602 LCD with I²C backpack (PCF8574)
 - 4x push buttons (4-pin tactile switches)
@@ -14,7 +14,7 @@ When a button is pressed, the LCD displays the name (or color) of the button.
 
 ---
 
-## 🔌 Wiring
+## Wiring
 
 ### LCD (I²C)
 | LCD Pin | Raspberry Pi Pin |
@@ -36,7 +36,7 @@ Each button has *two legs on each internal side* — only one side is used.
 
 ---
 
-## 🎛 Enable I²C
+## Enable I²C
 ```bash
 sudo raspi-config
 # Interface Options → I2C → Enable
