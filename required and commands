@@ -1,0 +1,10 @@
+## install packages
+sudo apt install python3-smbus2 python3-rpi.gpio
+
+## test the lcd
+python3 lcd_test.py
+
+## running the button display
+python3 buttons_lcd.py
+
+
